@@ -21,7 +21,7 @@ export default function Index() {
         <Image source={images.bg} style={{position: 'absolute', width: '100%'}}/>
 
         
-        <ScrollView style={{flex:1, paddingHorizontal: 20 }}>
+        <View style={{flex: 1, paddingHorizontal:10}}>
           <Image source={icons.logo} style={{marginHorizontal: 'auto', marginTop: 70}}/>
           {moviesLoading 
           ? (
@@ -65,7 +65,7 @@ export default function Index() {
           )
           }
           
-        </ScrollView>
+        </View>
       </View>
     
   );
